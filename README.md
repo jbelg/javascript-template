@@ -44,6 +44,7 @@ One variables can point to any type of data and can be changed to point to anyth
 
 Examples:
 * [Hoisting - let, var, named functions, anonymous functions](./studied-examples/hoisting-1.md)
+* [assignment vs comparison](https://github.com/jbelg/javascript-template/blob/master/studied-examples/assignment-vs-comparison.md)
 
 Variables Resources:
 * [Hoisting by example (functions)](https://gist.github.com/maxogden/4bed247d9852de93c94c)
