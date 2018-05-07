@@ -68,7 +68,7 @@ ___
 
 ## Functions
 
-* [bind](https://github.com/jbelg/javascript-template/blob/master/studied-examples/function-dot-call.md)
+* [call](https://github.com/jbelg/javascript-template/blob/master/studied-examples/function-dot-call.md)
 
 [TOP](#javascript)
 
