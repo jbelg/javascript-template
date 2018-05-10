@@ -25,10 +25,13 @@ Include links to your favorite JS tutorials and references.  We've started you o
 * [JavaScript.info](https://javascript.info) - outstanding reference/tutorial. beginner to advanced
 * [Practical JavaScript (Shawnr)](https://shawnr.gitbooks.io/practical-introduction-to-javascript/content/) - very clear examples with quizzes. beginner
 * [MDN Introduction](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Introduction) - great selection of examples to run
+* [Lodash](https://github.com/lodash/lodash)
+* [Great Gists](https://gist.github.com/colevandersWands/)
 * [JS by Examples](https://github.com/bmkmanoj/js-by-examples) - quality examples & explanations, ideal for PyTutor
 * [JS: Definitive Edition code](https://github.com/davidflanagan/javascript6_examples) - advanced examples, minimal explanation
 * [You Don't Know JS](https://github.com/getify/You-Dont-Know-JS) - good reference if you have programmed in another language
 * [w3schools](https://www.w3schools.com/js/default.asp) - goto reference with great examples
+* [Callbacks](https://github.com/elewa-academy/General-Resources/tree/master/code-to-study/progressive-callbacks)
 * [WTFJS](https://github.com/denysdovhan/wtfjs)
 
 

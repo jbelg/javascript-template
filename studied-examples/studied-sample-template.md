@@ -3,6 +3,7 @@
 
 Explanation of why this is an interesting snippet of code to step through.  What features of JavaScript does it illustrate?
 
+What were the most important pieces you learned from this example?
 
 ```js
 // paste the code you studied right here for reference
@@ -30,6 +31,8 @@ __Predicted Happenings:__
     a. 
   * _Objects_  
     a.
+* __Behaviors:__
+  * Things that happen but don't appear visually in "Frames" or "Objects"
 
 __Actual Happenings:__
 * __Global Context__
@@ -42,6 +45,8 @@ __Actual Happenings:__
     a.   
   * _Objects_  
     a.
+* __Behaviors:__
+  * Things that happen but don't appear visually in "Frames" or "Objects"
 
 Description of what happened in this step, and how well you predicted it.  This is your space to describe anything that happened but doesn't fall into the bulleted categories.
 

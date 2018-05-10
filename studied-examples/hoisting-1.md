@@ -33,6 +33,8 @@ __Predicted Happenings:__
     c. let_anonymous: Function  
 * __Other Contexts__  
   * no other contexts  
+* __Behaviors:__
+  * variables defined and hoisted, functions defined
 
 __Actual Happenings:__  
 * __Global Context__  
@@ -43,6 +45,8 @@ __Actual Happenings:__
     a. named: Function  
 * __Other Contexts__  
   * no other contexts  
+* __Behaviors:__
+  * variables defined and hoisted, only the named function was created
 
 Turns out variables declared with "let" are not hoisted.
 
@@ -60,6 +64,8 @@ __Predicted Happenings:__
     c. let_variable: "let"  
   * _Objects_    
     a. named: Function  
+* __Behaviors:__
+  * the let variable is created, since they aren't hoisted but are made just in time
 
 Got this one right.
 
@@ -75,6 +81,8 @@ __Predicted Happenings:__
     c. let_variable: "let"  
   * _Objects_    
     a. named: Function  
+* __Behaviors:__
+  * "var_variable" is assigned a value
 
 Got this one right.
 
@@ -90,7 +98,9 @@ __Predicted Happenings:__
     c. let_variable: "let"  
     d. let_anonymous: undefined  
   * _Objects_   
-    a. named: Function  
+    a. named: Function 
+* __Behaviors:__
+  * "let_anonymous" will be created but not defined
 
 __Actual Happenings:__  
 * __Global Context__  
@@ -101,6 +111,8 @@ __Actual Happenings:__
   * _Objects_    
     a. named: Function  
     b. let_anonymous: Function  
+* __Behaviors:__
+  * "let_anonymous" was created and defined
 
 
 Turns out "let" variables are constructed __and__ given values in the same step.  In other words: "let" variables are not created until they are defined in the file.
@@ -118,6 +130,8 @@ __Predicted Happenings:__
     a. named: Function  
     b. let_anonymous: Function  
     c. var_anonymous: Function  
+* __Behaviors:__
+  * "var_anonymous" will be created and defined
 
 Got this one right.
 
